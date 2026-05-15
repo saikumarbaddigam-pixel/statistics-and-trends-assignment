@@ -65,7 +65,9 @@ sns.countplot(
 
 )
 
-plt.title("Distribution of Netflix Ratings by Content Type", fontsize=18, fontweight='bold')
+plt.title("
+    Distribution of Netflix Ratings by Content Type", 
+    fontsize=18, fontweight='bold')
 
 plt.xlabel("Rating Category", fontsize=13)
 

@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 
-df = pd.read_csv("netflix1.csv")
+df = pd.read_csv("data.csv")
 
 print(df.head())
 

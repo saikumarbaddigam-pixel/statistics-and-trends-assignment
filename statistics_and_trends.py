@@ -35,13 +35,13 @@ sns.set_style("whitegrid")
 
 sns.scatterplot(
     data=df.sample(1500),
-        x='release_year',
-            y='rating',
-                hue='type',
-                    palette='viridis',
-                        s=90,
-                            alpha=0.8
-                            )
+    x='release_year',
+    y='rating',
+    hue='type',
+    palette='viridis',
+    s=90,
+    alpha=0.8
+)
 plt.title("Netflix Content Ratings by Release Year")
 
 plt.xlabel("Release Year")

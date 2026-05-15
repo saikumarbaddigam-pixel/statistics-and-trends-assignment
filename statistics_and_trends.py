@@ -101,9 +101,8 @@ sns.histplot(
     color='purple'
 )
 plt.title(
-    "Distribution of Netflix Release Years", 
-    fontsize=20, 
-    fontweight='bold'
+"Distribution of Netflix Release Years", 
+fontsize=20,fontweight='bold'
 )
 
 plt.xlabel("Release Year", fontsize=14)

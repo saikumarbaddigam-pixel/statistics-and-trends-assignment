@@ -11,9 +11,6 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from google.colab import files
-
-uploaded = files.upload()
 
 df = pd.read_csv("netflix1.csv")
 

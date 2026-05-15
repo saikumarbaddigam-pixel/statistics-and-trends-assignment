@@ -59,10 +59,11 @@ sns.set_style("whitegrid")
 
 sns.countplot(
     data=df,
-        x='rating',
-            hue='type',
-                palette='magma'
-                )
+    x='rating',
+    hue='type',
+    palette='magma'
+
+)
 
 plt.title("Distribution of Netflix Ratings by Content Type", fontsize=18, fontweight='bold')
 
@@ -90,11 +91,11 @@ sns.set_style("whitegrid")
 
 sns.histplot(
     data=df,
-        x='release_year',
-            bins=30,
-                kde=True,
-                    color='purple'
-                    )
+    x='release_year',
+    bins=30,
+    kde=True,
+    color='purple'
+)
 plt.title("Distribution of Netflix Release Years", fontsize=20, fontweight='bold')
 
 plt.xlabel("Release Year", fontsize=14)

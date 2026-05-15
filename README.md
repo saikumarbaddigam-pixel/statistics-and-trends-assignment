@@ -1,6 +1,20 @@
 # Statistics and Trends Assignment
-This is the template repository for the statistics and trends assignment.
-You should create a personal repository from this template repository
-(there is a green box with a link in the top right).
-Ensure that the file `statistics_and_trends.py` is present and functional, with your downloaded data
-in the `data.csv` file.
+
+## Overview
+This project analyzes Netflix dataset trends using Python, Pandas, Matplotlib, and Seaborn.
+
+## Features
+- Data cleaning and preprocessing
+- Relational plot visualization
+- Categorical plot visualization
+- Statistical graph analysis
+- Mean, Median, Mode, and Standard Deviation calculations
+
+## Technologies Used
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+
+## Dataset
+The dataset used for this assignment is stored in `data.csv`.
